@@ -9,7 +9,7 @@ class Navbar extends Component {
             <nav className="navbar navbar-dark bg-dark">
                 <div className="container-fluid">
                     <a href="https://www.google.com" className='navbar-brand'>
-                        navbar{this.calculatesum()}
+                        Total{this.calculatesum()}
                     </a>
                 </div>
             </nav>

@@ -8,15 +8,15 @@ const App = () => {
         [
             { id: 1, count: 30, productName: "laptap" },
             { id: 2, count: 50, productName: "airpod" },
-            { id: 3, count: 40, productName: "ipad" },
             { id: 4, count: 25, productName: "mobile" },
-            { id: 5, count: 55, productName: "glass" },
-            { id: 6, count: 60, productName: "headphone" },
+            { id: 5, count: 55, productName: "glass " },
             { id: 7, count: 30, productName: "tablet" },
-            { id: 8, count: 20, productName: "minitablet" },
+            { id: 3, count: 40, productName: " ipad " },
             { id: 9, count: 40, productName: "macbook" },
-            { id: 10, count: 33, productName: "imac" },
-            { id: 11, count: 55, productName: "sorface" },
+            { id: 8, count: 55, productName: "sorface" },
+            { id: 10, count: 33, productName: " imac " },
+            { id: 6, count: 60, productName: "headphone" },
+            
         ]
      )
     return ( 

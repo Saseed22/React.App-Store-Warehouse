@@ -9,8 +9,10 @@ class Products extends Component {
     render() { 
         return (
             <>
-            <button onClick={this.context.onReset} className='btn btn-danger'>Reset</button>
-            {this.context.Products.map((p,index)=>(
+                <div className="text-center">
+                    <button onClick={this.context.onReset} className='btn btn-danger'>Reset</button>
+                </div>
+                {this.context.Products.map((p,index)=>(
                 <Product  id={p.id} key={index} 
                 productName={p.productName} 
                 count={p.count}/>
