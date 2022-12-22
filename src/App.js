@@ -10,11 +10,11 @@ class App extends Component {
       { id: 4, count: 25, productName: "mobile" },
       { id: 5, count: 55, productName: "glass " },
       { id: 7, count: 30, productName: "tablet" },
-      { id: 3, count: 40, productName: " ipad " },
-      { id: 10, count: 33, productName: " imac " },
-      { id: 8, count: 55, productName: "sorface" },
-      { id: 9, count: 40, productName: "Mbook" },
-      { id: 6, count: 60, productName: "Hphone" },
+      { id: 3, count: 440, productName: " ipad " },
+      { id: 10, count: 333, productName: " imac " },
+      { id: 8, count: 5, productName: "sorface" },
+      { id: 9, count: 4, productName: "Mbook" },
+      { id: 6, count: 6, productName: "Hphone" },
     ],
   };
   render() {

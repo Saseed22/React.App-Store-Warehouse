@@ -16,6 +16,7 @@ class Product extends Component {
             <button onClick={this.handleDecrement} className='m-2 btn btn-sm btn-warning mx-5 px-5 '>-</button>
             <button onClick={this.handleDelete} className='m-2 btn btn-sm btn-danger mx-5 px-5 '>Delete</button>
             </div>
+            
         );
     }
 

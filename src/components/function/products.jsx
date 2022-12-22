@@ -7,8 +7,11 @@ const Products = (props) => {
     
     return ( 
         <>
-         <button onClick={productsContext.onReset} className='btn btn-danger'>Reset</button>
-         {productsContext.Products.map((p,index)=>(
+            <div className="text-center mt-2">
+                <button onClick={productsContext.onReset} className='btn btn-danger'>Reset</button>
+            </div>
+            
+            {productsContext.Products.map((p,index)=>(
                 <Product   
                 id={p.id} key={index} 
                 productName={p.productName} 
