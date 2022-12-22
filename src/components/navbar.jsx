@@ -6,10 +6,10 @@ class Navbar extends Component {
     state = {  } 
     render() { 
         return (
-            <nav className="navbar navbar-dark bg-dark">
-                <div className="container-fluid">
-                    <a href="https://www.google.com" className='navbar-brand'>
-                        Total{this.calculatesum()}
+            <nav className="navbar navbar-dark bg-dark ">
+                <div className="container-fluid  justify-content-center">
+                    <a href="https://www.google.com" className='navbar-brand ml-5'>
+                        Total = {this.calculatesum()}
                     </a>
                 </div>
             </nav>

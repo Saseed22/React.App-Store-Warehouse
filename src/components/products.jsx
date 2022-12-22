@@ -9,7 +9,7 @@ class Products extends Component {
     render() { 
         return (
             <>
-                <div className="text-center">
+                <div className="text-center mt-2">
                     <button onClick={this.context.onReset} className='btn btn-danger'>Reset</button>
                 </div>
                 {this.context.Products.map((p,index)=>(
